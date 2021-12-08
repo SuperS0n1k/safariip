@@ -31,4 +31,6 @@ jobs:
           git submodule add https://github.com/supers0n1k/supers0n1k.github.io
           git commit -am 'Add website'
            git push origin master
+             git config --global user.email "peter.nilausen@gmail.com"
+          git config --global user.name "supers0n1k"
 
