@@ -28,4 +28,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          git submodule add git submodule add git@github.com:SuperS0n1k/SuperS0n1k.github.io.git /docs
+          git submodule add https://github.com/supers0n1k/supers0n1k.github.io
+          git commit -am 'Add website'
+           git push origin master
+
